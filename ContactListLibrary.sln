@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactListLibrary", "ContactListLibrary\ContactListLibrary.csproj", "{E50851E7-4968-442D-A14C-4664B2EB8885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnyggKontaktlista", "..\SnyggKontaktlista\SnyggKontaktlista\SnyggKontaktlista.csproj", "{9DD0170C-72A6-4C77-BBD5-C16A321B2250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E50851E7-4968-442D-A14C-4664B2EB8885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50851E7-4968-442D-A14C-4664B2EB8885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50851E7-4968-442D-A14C-4664B2EB8885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50851E7-4968-442D-A14C-4664B2EB8885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD0170C-72A6-4C77-BBD5-C16A321B2250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD0170C-72A6-4C77-BBD5-C16A321B2250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD0170C-72A6-4C77-BBD5-C16A321B2250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD0170C-72A6-4C77-BBD5-C16A321B2250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+c:\users\administrator\documents\visual studio 2015\Projects\ContactListLibrary\ContactListLibrary\bin\Debug\ContactListLibrary.dll
+c:\users\administrator\documents\visual studio 2015\Projects\ContactListLibrary\ContactListLibrary\bin\Debug\ContactListLibrary.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\ContactListLibrary\ContactListLibrary\obj\Debug\ContactListLibrary.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\ContactListLibrary\ContactListLibrary\obj\Debug\ContactListLibrary.dll
+c:\users\administrator\documents\visual studio 2015\Projects\ContactListLibrary\ContactListLibrary\obj\Debug\ContactListLibrary.pdb

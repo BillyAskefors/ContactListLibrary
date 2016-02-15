@@ -16,7 +16,7 @@ namespace ContactListLibrary
         public static void EditContact(string id, string firstname, string lastname, string ssn)
         {
             SqlConnection myConnection = new SqlConnection();
-            myConnection.ConnectionString = CON_STR:
+            myConnection.ConnectionString = CON_STR;
             
             try
             {

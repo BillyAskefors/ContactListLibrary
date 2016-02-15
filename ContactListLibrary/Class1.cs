@@ -12,7 +12,7 @@ namespace ContactListLibrary
     public static class Connection
     {
         const string CON_STR = "Data Source=ACADEMY009-VM;Initial Catalog=Contacts;Integrated Security=SSPI";
-
+        //hej hej
         public static void EditContact(string id, string firstname, string lastname, string ssn)
         {
             SqlConnection myConnection = new SqlConnection();

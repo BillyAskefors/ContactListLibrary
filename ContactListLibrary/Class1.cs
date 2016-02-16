@@ -179,6 +179,29 @@ namespace ContactListLibrary
                 myConnection.Close();
             }
         }
+        public static void EditUser(string id, string firstname, string lastname, string ssn)
+        {
+            SqlConnection myConnection = new SqlConnection();
+            myConnection.ConnectionString = CON_STR;
+            try
+            {
+                myConnection.Open();
+
+                SqlCommand myCommand = new SqlCommand();
+                myCommand.Connection = myConnection;
+
+                myCommand.CommandText = $"UPDATE Contact set Firstname = '{firstname}', Lastname = '{lastname}', SSN = '{ssn}' where ID = '{id}'";
+                myCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                myConnection.Close();
+            }
+        }
         public static void DeleteAdress(string id)
         {
             SqlConnection myConnection = new SqlConnection();
